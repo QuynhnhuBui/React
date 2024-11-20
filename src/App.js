@@ -34,7 +34,7 @@ function App() {
     <div>
       <NewExpense onAddExpense={addExpense} />
 
-      <Expenses expenses={expenses} />
+      {/* <Expenses expenses={expenses} /> */}
     </div>
   );
 }
